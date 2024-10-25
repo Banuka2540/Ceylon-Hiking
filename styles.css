@@ -1,0 +1,162 @@
+*{
+    color:white;
+}
+.heading{
+    font-family: poppins;
+    margin: 10%;
+    font-size: 120px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#body1{
+    background-image: url('beautiful-mountains-landscape.jpg');
+    background-repeat: no-repeat;
+
+}
+#body2{
+    background-color: black;
+}
+#body3{
+    background-image: linear-gradient(rgb(4, 1, 45), rgb(24, 3, 116));
+}
+
+#body4{
+    background-image: linear-gradient(rgb(4, 1, 45), rgb(24, 3, 116));
+}
+
+.image1{
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+}
+.footer{
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    font: poppins;
+    font-size: 20px;
+}
+.topic2{
+    font-family: poppins;
+    color: rgb(255, 251, 0);
+}
+.container{
+    width: auto;
+    color: aquamarine;
+}
+.container1{
+    width: 30%;
+    margin: 10%;
+    color: rgb(255, 255, 255);
+    float:left;
+    font-size: 15px;
+}
+.container2{
+    width: 30%;
+    margin: 10%;
+    color: rgb(255, 255, 255);
+    float: right;
+    font-size: 15px;
+}
+.navigation{
+    float:none;
+    padding:30px;
+    display:block;
+    margin: 0px;
+    word-spacing: 4;
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+.link{
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(1, 1, 1);
+}
+.para2{
+    color: rgb(196, 197, 196);
+    font-family:poppins;
+    text-align: justify;
+}
+#container3{
+    width: auto;
+    margin: 10%;
+    color: rgb(169, 164, 164);
+}
+#container4{
+    width: auto;
+    margin: 10%;
+    color: rgb(169, 164, 164);
+}
+.para0{
+    color: rgba(212, 170, 20, 0.809);
+    font-family:poppins;
+    text-align: left;
+    text-decoration: underline;
+}
+.pic{
+    width: 350px;
+    height: 200px;
+    border-radius: 3rem;
+}
+#readmore{
+    color:white;
+    text-align: center;
+    font-family: poppins;
+    text-align: center;
+    font-size: 30px;
+    text-decoration:none;
+}
+.para1{
+    font-family:poppins;
+    text-align: center;
+    color: rgb(210, 207, 207);
+}
+
+.footer{
+   padding: 10px 10px;
+}
+.container5{
+    background-color: black;
+    width: 35%;
+    height: 30%;
+    padding: 10px 20px;
+    margin: 5%;
+    border-radius: 2rem;
+    font-family: poppins;
+    text-align: center;
+    display: block;
+    float: left;
+    font-size:25px;
+}
+.container6{
+    background-color: black;
+    width: 35%;
+    height: 30%;
+    padding: 10px 20px;
+    margin: 5%;
+    border-radius: 2rem;
+    font-family: poppins;
+    text-align: center;
+    display: block;
+    float: right;
+    font-size:25px;
+}
+.container7{
+    background-color: black;
+    width: 50%;
+    height: 30%;
+    padding: 10px 20px;
+    margin: 5%;
+    border-radius: 2rem;
+    font-family: poppins;
+    text-align: center;
+    display: block;
+   
+    font-size:25px;
+}
