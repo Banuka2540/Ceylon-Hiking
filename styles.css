@@ -1,162 +1,240 @@
-*{
-    color:white;
-}
-.heading{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: poppins;
-    margin: 10%;
-    font-size: 120px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(beautiful-mountains-landscape.jpg);
+    color: #000000;
+  }
+  .body4{
+
+  }
+  .heading{
+    font-size: 80px;
+  }
+
+  header {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
     text-align: center;
-    color: rgb(255, 255, 255);
-}
-
-#body1{
-    background-image: url('beautiful-mountains-landscape.jpg');
-    background-repeat: no-repeat;
-
-}
-#body2{
-    background-color: black;
-}
-#body3{
-    background-image: linear-gradient(rgb(4, 1, 45), rgb(24, 3, 116));
-}
-
-#body4{
-    background-image: linear-gradient(rgb(4, 1, 45), rgb(24, 3, 116));
-}
-
-.image1{
-    background-repeat: no-repeat;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 2rem;
-}
-.footer{
-    background-color: rgb(26, 26, 26);
-    text-align: center;
-    font: poppins;
-    font-size: 20px;
-}
-.topic2{
-    font-family: poppins;
-    color: rgb(255, 251, 0);
-}
-.container{
-    width: auto;
-    color: aquamarine;
-}
-.container1{
-    width: 30%;
-    margin: 10%;
-    color: rgb(255, 255, 255);
-    float:left;
-    font-size: 15px;
-}
-.container2{
-    width: 30%;
-    margin: 10%;
-    color: rgb(255, 255, 255);
-    float: right;
-    font-size: 15px;
-}
-.navigation{
-    float:none;
-    padding:30px;
-    display:block;
-    margin: 0px;
-    word-spacing: 4;
-    text-align: right;
-    color: rgb(255, 255, 255);
-}
-.link{
-    color: rgb(255, 255, 255);
-    font-family: poppins;
+    color: #fbfffb;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: rgb(2, 159, 41);
     text-decoration: none;
-    font-size: 20px;
-}
-a:hover{
-    color: rgb(1, 1, 1);
-}
-.para2{
-    color: rgb(196, 197, 196);
-    font-family:poppins;
-    text-align: justify;
-}
-#container3{
-    width: auto;
-    margin: 10%;
-    color: rgb(169, 164, 164);
-}
-#container4{
-    width: auto;
-    margin: 10%;
-    color: rgb(169, 164, 164);
-}
-.para0{
-    color: rgba(212, 170, 20, 0.809);
-    font-family:poppins;
-    text-align: left;
+    font-size: 1.2em;
+  }
+  
+  nav ul li a:hover {
     text-decoration: underline;
-}
-.pic{
-    width: 350px;
+    color: rgb(2, 91, 1);
+  }
+  
+  h1 {
+    margin-top: 20px;
+    font-size: 2.5em;
+  }
+  
+
+  .intro {
+    padding: 40px;
+    text-align: center;
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .intro h2 {
+    margin-bottom: 20px;
+    font-size: 2.2em;
+  }
+  
+  .intro p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card img {
+    width: 100%;
     height: 200px;
-    border-radius: 3rem;
-}
-#readmore{
-    color:white;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    margin: 20px 0;
+    font-size: 1.5em;
+  }
+  
+  .card p {
+    padding: 0 20px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .card-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .card-btn:hover {
+    background-color: #218838;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
     text-align: center;
-    font-family: poppins;
-    text-align: center;
-    font-size: 30px;
-    text-decoration:none;
-}
-.para1{
-    font-family:poppins;
-    text-align: center;
-    color: rgb(210, 207, 207);
+  }
+  
+  .footer-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-content p {
+    font-size: 1em;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 0.9em;
+  }
+  /* About Section */
+.about-section {
+  background-color: white;
+  padding: 60px 0;
 }
 
-.footer{
-   padding: 10px 10px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-.container5{
-    background-color: black;
-    width: 35%;
-    height: 30%;
-    padding: 10px 20px;
-    margin: 5%;
-    border-radius: 2rem;
-    font-family: poppins;
-    text-align: center;
-    display: block;
-    float: left;
-    font-size:25px;
+
+.about-section h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
 }
-.container6{
-    background-color: black;
-    width: 35%;
-    height: 30%;
-    padding: 10px 20px;
-    margin: 5%;
-    border-radius: 2rem;
-    font-family: poppins;
-    text-align: center;
-    display: block;
-    float: right;
-    font-size:25px;
+
+.about-section p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  line-height: 1.8;
+  text-align: justify;
 }
-.container7{
-    background-color: black;
-    width: 50%;
-    height: 30%;
-    padding: 10px 20px;
-    margin: 5%;
-    border-radius: 2rem;
-    font-family: poppins;
-    text-align: center;
-    display: block;
-   
-    font-size:25px;
+
+.about-section h2 {
+  margin-top: 40px;
+  font-size: 2em;
+  color: #28a745;
+}
+/* Contact Section */
+.contact-section {
+  background-color: white;
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-section h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+
+.contact-section p {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+input, textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
 }
