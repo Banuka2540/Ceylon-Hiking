@@ -1,19 +1,16 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: poppins;
   }
   
   body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     background-image: url(beautiful-mountains-landscape.jpg);
     color: #000000;
   }
-  .body4{
-
-  }
+  
   .heading{
     font-size: 80px;
   }
@@ -80,11 +77,11 @@
   }
   
   .card {
-    background-color: white;
+    background-color: rgb(223, 240, 226);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
-    margin: 5px;
+    margin: 3px;
     overflow: hidden;
     text-align: center;
     transition: transform 0.3s ease;
@@ -106,7 +103,7 @@
   }
   
   .card p {
-    padding: 0 20px;
+    padding: 10px 20px;
     font-size: 1em;
     color: #555;
   }
@@ -115,7 +112,7 @@
     display: inline-block;
     padding: 10px 20px;
     margin: 20px 0;
-    background-color: #28a745;
+    background-color: #00861f;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -127,7 +124,7 @@
   
 
   footer {
-    background-color: #333;
+    background-color: #002307;
     color: white;
     padding: 40px 0;
     text-align: center;
@@ -151,7 +148,7 @@
   .footer-bottom p {
     font-size: 0.9em;
   }
-  /* About Section */
+
 .about-section {
   background-color: white;
   padding: 60px 0;
@@ -181,7 +178,7 @@
   font-size: 2em;
   color: #28a745;
 }
-/* Contact Section */
+
 .contact-section {
   background-color: white;
   padding: 60px 0;
@@ -237,4 +234,72 @@ button {
 
 button:hover {
   background-color: #218838;
+}
+.services{
+  margin: 10%;
+  padding:10%;
+  overflow:hidden;
+ 
+}
+.serviceheading{
+  color: white;
+  font-size: 60px;
+  font-family: poppins;
+  text-align: center;
+}
+.servicepara{
+  color:white;
+  font-family: poppoins;
+  text-align: center;
+}
+.services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+.services{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 2rem;
+  padding: 10px 0px;
+    
+   
+}
+.services {
+  background-color: rgb(2, 141, 32);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 5px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.services:hover {
+  transform: translateY(-10px);
+}
+
+.services img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  
+}
+
+.services p {
+  padding: 20px 20px;
+  font-size: 1em;
+  color: #ebfaed;
+  text-align: center;
+}
+.qheading{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: 30px;
+  padding: 60px;
 }
